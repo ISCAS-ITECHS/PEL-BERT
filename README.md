@@ -65,6 +65,3 @@ Result file is test_results.tsv, every line gives a single sample's probabilitie
 [1] Adhikari, Ashutosh, et al. "Rethinking complex neural network architectures for document classification." Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers). 2019.
 
 [2] Adhikari, Ashutosh, Achyudh Ram, Raphael Tang, and Jimmy Lin. "DocBERT: BERT for Document Classification." arXiv preprint arXiv:1904.08398 (2019).
-
-
-
