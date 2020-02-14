@@ -1,5 +1,5 @@
-# PEL-BERT
-PEL-BERT: A Joint Model for Protocol Entity Linking
+# RFC-EL-2020 
+
 ## Abstract    
 Internet protocol analysis is an advanced computer networking topic that uses a packet analyzer to capture, view, and understand Internet protocols. Due to the long period, not uniform format, and strong domain-specific of the RFC document context, it is a challenging issue to identify and link the field entities in RFC document protocol using the current methods. The pre-trained models, such as BERT, are widely used in NLP tasks and are fine-tuned to improve the performance of various natural language processing tasks consistently. Nevertheless, the fine-tuned BERT model trained on our protocol corpus still has a weak performance on the entity linking mission. In this paper, we propose a model that joints a fine-tuned language model with an RFC Domain Model to link named entities in the protocols to categories in the protocol knowledge base. Firstly, we design a protocol knowledge base as the schema for protocol entity linking. Secondly, we use the heuristic methods to identify the protocol entities and infer the descriptions from the nearby contexts of its header field using the Zero-Shot Learning method. Finally, we conduct comprehensive experiments on the RFC dataset by using our joint model and baseline methods to make protocol entity linking. Experimental results demonstrate that our model achieves state-of-the-art performance in entity linking on our annotated dataset, outperforming all the baselines. Besides, we release a data set of entity linking in the field of computer networks, RFC-EL-2020, which provides help for researchers to fine-grained analyze and utilize protocols.    
 
@@ -30,7 +30,6 @@ file is RFC-EL-2020_v1.0.tsv,format is tsv.
 |           |  CNN        |  48.0%  | 44.5% | 45.2% | 44.8%|
 |           |  Bi-GRU     |  53.6%  | 44.9% | 41.3% | 43.0%|
 |           |  Adhikari   |  57.6%  | 48.3% | 48.3% | 48.3%|
-|           |  DocBERT    |  70.6%  | 71.8% | 71.1% | 71.4%|
 |**Our Model**  |  **PEL-BERT**   |  **72.9%**  | **73.7%** | **74.7%** | **74.2%**|  
 
 
